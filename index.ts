@@ -1,7 +1,5 @@
-import { parse } from "node-html-parser";
-var TurndownService = require("turndown");
-
-var turndownService = new TurndownService();
+const url = process.argv[2];
+const title = process.argv.slice(3).join(" ");
 
 const getVideoUrl = (url: string) => {
   return url.split("/").pop();

@@ -8,9 +8,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-var TurndownService = require("turndown");
-var turndownService = new TurndownService();
+const url = process.argv[2];
+const title = process.argv.slice(3).join(" ");
 const getVideoUrl = (url) => {
     return url.split("/").pop();
 };
