@@ -35,7 +35,8 @@ state: 'twitch'
 
 <CenterChild><iframe src="https://player.twitch.tv/?video=${videoId}&parent=www.bramadams.dev&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe></CenterChild>
 
-[Follow me on Twitch!](https://www.twitch.tv/bramses)
+
+<CenterChild>\n\t**[Follow me on Twitch!](https://www.twitch.tv/bramses)**\n</CenterChild>
 `;
 
   console.log(finalHTML);
